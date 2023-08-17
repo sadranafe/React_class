@@ -1,4 +1,4 @@
-import React from 'react';
+import DUMMY_DATA from "./components/dummy_data";
 
 const App = () => {
   return (
