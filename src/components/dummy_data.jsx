@@ -33,3 +33,5 @@ const DUMMY_DATA = [
         link: "https://cdn.mos.cms.futurecdn.net/ytKr6L3ZTP4Pf2acEpzpMM.jpeg"
     }
 ]
+
+export default DUMMY_DATA;
