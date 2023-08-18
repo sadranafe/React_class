@@ -16,7 +16,7 @@ const DUMMY_DATA = [
         link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZQTmTEoOZcidZf7vMD6owQAj8KIB-Ir4TWJaWn2TNcKNf6a3bHTFnu1UvkA4vCVCrQsQ&usqp=CAU"
     }, {
         id: 4,
-        model : "samsung X23",
+        model : "samsung S23",
         cost: "628",
         link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmiAKtiWFbFuOGFav4liY881ikLKeHK96rlw&usqp=CAU"
     }, {
