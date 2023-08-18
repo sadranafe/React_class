@@ -5,7 +5,11 @@ const CartCounter = () => {
 
     return (
         <>
-            <CounterContent/>
+        {
+            DUMMY_DATA.map(item =>
+                <CounterContent key = {item.id} price = {item.cost} imgLinks = {item.link}/>
+            )
+        }
         </>
     );
 };
