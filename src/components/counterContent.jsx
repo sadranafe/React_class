@@ -48,7 +48,7 @@ const CounterContent = ({price , imgLinks , model}) => {
                         </div>
 
                         <div>
-                            <button className = "capitalize bg-blue-600 hover:bg-blue-800 transition-all p-2 px-5 rounded-lg">buy</button>
+                            <button className = "capitalize bg-blue-200 border-blue-200 text-black border hover:bg-transparent hover:text-blue-200 transition-all p-2 px-5 rounded-lg">buy</button>
                         </div>
                     </div>
                 </div>
