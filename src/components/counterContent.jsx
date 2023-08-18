@@ -1,13 +1,14 @@
-const CounterContent = () => {
+const CounterContent = ({price , imgLinks , model}) => {
     return (
         <>
             <div className="w-80 m-2 overflow-hidden rounded-2xl">
-                <div className="bg-orange-600 w-full">
-                    <img src="https://fastly.picsum.photos/id/819/536/354.jpg?hmac=YBqw90sWO_bDRiOw7qgVjhPYnCkNhqqbM0zy-QPlEN4" alt="mohammad sadra nafe" className="w-full" />
+                <div>
+                    <img src = {imgLinks} alt="mohammad sadra nafe" className = "w-full h-full" />
                 </div>
 
-                <div className="bg-emerald-600 p-3">
-                    <div>
+                <div className="bg-blue-500 p-3">
+                    <div className = "flex items-center flex-wrap justify-between">
+                        <p>{model}</p>
                         <p className="w-fit px-3 rounded-lg bg-orange-300">
                             <span className = "inline-block">
                                 <i className='bx bx-x'></i>
