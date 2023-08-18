@@ -5,3 +5,7 @@
 *{
     font-family: 'Josefin Sans';
 }
+
+input::-webkit-inner-spin-button , input::-webkit-outer-spin-button{
+    appearance: none;
+}
