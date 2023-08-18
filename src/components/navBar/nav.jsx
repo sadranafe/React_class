@@ -10,7 +10,7 @@ const Nav = () => {
     
     return (
         <>
-            <div className = 'flex flex-wrap justify-between items-center bg-neutral-900 p-2 px-4 w-full'>
+            <div className = 'flex flex-wrap justify-between items-center bg-slate-700 p-2 px-4 w-full'>
 
                 <div className = 'flex flex-wrap w-6/12 min-[930px]:flex-nowrap items-center justify-start md:w-2/12 min-[930px]:w-1/12'>
                     
@@ -25,15 +25,15 @@ const Nav = () => {
 
                 <div className = 'hidden capitalize md:flex md:flex-wrap justify-center items-center text-white max-[929px]:w-8/12 min-[930px]:w-10/12'>
                     <div className = 'mx-2'>
-                        <a href = "#" className = 'p-3 px-5 hover:text-blue-200 transition-all'>features</a>
+                        <a href = "#" className = 'p-3 px-5 hover:text-blue-400 transition-all'>features</a>
                     </div>
 
                     <div className = 'mx-2'>
-                        <a href = "#" className = 'p-3 px-5 hover:text-blue-200 transition-all'>customers</a>
+                        <a href = "#" className = 'p-3 px-5 hover:text-blue-400 transition-all'>customers</a>
                     </div>
 
                     <div className = 'mx-2'>
-                        <a href = "#" className = 'p-3 px-5 hover:text-blue-200 transition-all'>integrations</a>
+                        <a href = "#" className = 'p-3 px-5 hover:text-blue-400 transition-all'>integrations</a>
                     </div>
                 </div>
 
@@ -44,15 +44,15 @@ const Nav = () => {
 
                 <div className = {menuIsOpen ? 'md:hidden capitalize flex max-h-48 overflow-hidden flex-wrap justify-center items-center text-white transition-all w-full' : 'md:hidden capitalize flex max-h-0 overflow-hidden flex-wrap justify-center items-center text-white transition-all w-full'}>
                     <div className = 'mx-2 w-full my-2 p-1'>
-                        <a href = "#" className = 'p-3 px-5 hover:text-blue-200 transition-all'>features</a>
+                        <a href = "#" className = 'p-3 px-5 hover:text-blue-400 transition-all'>features</a>
                     </div>
 
                     <div className = 'mx-2 w-full my-2 p-1'>
-                        <a href = "#" className = 'p-3 px-5 hover:text-blue-200 transition-all'>customers</a>
+                        <a href = "#" className = 'p-3 px-5 hover:text-blue-400 transition-all'>customers</a>
                     </div>
 
                     <div className = 'mx-2 w-full my-2 p-1'>
-                        <a href = "#" className = 'p-3 px-5 hover:text-blue-200 transition-all'>integrations</a>
+                        <a href = "#" className = 'p-3 px-5 hover:text-blue-400 transition-all'>integrations</a>
                     </div>
 
                     <div className = 'mx-2 w-full my-2 p-1'>
