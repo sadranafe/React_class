@@ -1,6 +1,7 @@
 import DUMMY_DATA from "./dummy_data";
 import CounterContent from "./counterContent";
 import Nav from "./navBar/nav";
+import Footer from "./footer/footer";
 
 const CartCounter = () => {
 
@@ -14,6 +15,8 @@ const CartCounter = () => {
                     )
                 }
             </div>
+
+            <Footer/>
         </>
     );
 };
