@@ -23,7 +23,7 @@ const Nav = () => {
                     <p className = 'uppercase text-white max-[929px]:text-sm font-semibold'>acme</p>
                 </div>
 
-                <div className = 'hidden capitalize md:flex md:flex-wrap justify-center items-center text-white max-[929px]:w-8/12 min-[930px]:w-10/12'>
+                <div className = 'hidden capitalize md:flex md:flex-wrap justify-center items-center text-white max-[929px]:w-8/12 min-[930px]:w-9/12'>
                     <div className = 'mx-2'>
                         <a href = "#" className = 'p-3 px-5 hover:text-blue-400 transition-all'>features</a>
                     </div>
@@ -38,7 +38,11 @@ const Nav = () => {
                 </div>
 
 
-                <div className = 'capitalize min-[930px]:w-1/12 w-4/12 md:w-2/12 max-[929px]:text-sm flex flex-wrap justify-end items-center'>
+                <div className = 'capitalize w-4/12 md:w-2/12 max-[929px]:text-sm flex flex-wrap justify-end items-center'>
+                    <button href = "#" className = "p-2 px-2 mx-2 text-xl flex items-center justify-center text-blue-200 hover:bg-blue-200 transition-all rounded-xl hover:text-black">
+                        <i className = "bx bx-cart"></i>
+                    </button>
+
                     <a href = "#" className = 'bg-transparent border-blue-200 text-blue-200 border hover:bg-blue-200 transition-all hover:text-black p-2 rounded-xl'>sign up</a>
                 </div>
 
