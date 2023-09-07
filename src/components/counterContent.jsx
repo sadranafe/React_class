@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const CounterContent = ({price , imgLinks , model}) => {
+const CounterContent = ({price , src , title}) => {
     const [counter , setCounter] = useState(1)
 
     const btnReducerHandler = () => {
@@ -11,7 +11,7 @@ const CounterContent = ({price , imgLinks , model}) => {
         setCounter(counter + 1)
     }
 
-    const inputChangeHandler = (ev) => {
+    const inputChangeHandler = ev => {
         ev.target.value === "" ? setCounter(1) : setCounter(ev.target.value);
     }
 
@@ -19,13 +19,13 @@ const CounterContent = ({price , imgLinks , model}) => {
         <>
             <div className = "w-80 overflow-hidden rounded-2xl m-5 mx-8">
                 <div>
-                    <img src = {imgLinks} alt="mohammad sadra nafe" className = "w-full h-full" />
+                    <img src = {src} alt = {src} className = "w-full h-[350px]" />
                 </div>
 
                 <div className = "bg-zinc-800 text-neutral-50 p-3">
                     <div className = "flex items-center flex-wrap justify-between">
-                        <p>{model}</p>
-                        <p  className = "w-fit px-3 py-1 rounded-lg bg-zinc-950">
+                        <p>{title}</p>
+                        <p className = "w-fit px-3 py-1 mt-2 rounded-lg bg-zinc-950">
                             <span className = {"inline-block"}>
                                 <span>{ counter === 0 ? Number(price).toLocaleString() : Number(Number(price) * counter).toLocaleString()} $</span>
                             </span>
