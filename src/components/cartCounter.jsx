@@ -1,6 +1,7 @@
-import DUMMY_DATA from "./dummy_data";
+// import DUMMY_DATA from "./dummy_data";
 import CounterContent from "./counterContent";
 import Footer from "./footer/footer";
+import axios from "axios";
 
 const CartCounter = () => {
 
