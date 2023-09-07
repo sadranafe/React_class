@@ -11,6 +11,7 @@ This project is a simple React application that displays a counter on the screen
 ## Technologies Used
 - React : front-end JavaScript library for building user interfaces.
 - TailwindCSS : A utility-first CSS framework packed with classes.
+- Axios : Promise based HTTP client for the browser and node.js.
 
 ## Getting started
 
