@@ -10,7 +10,7 @@ const Nav = () => {
     
     return (
         <>
-            <div className = 'flex flex-wrap justify-between items-center bg-slate-700 p-2 px-4 w-full'>
+            <div className = 'flex flex-wrap justify-between items-center bg-neutral-800 p-2 px-4 w-full'>
 
                 <div className = 'flex flex-wrap w-6/12 min-[930px]:flex-nowrap items-center justify-start md:w-2/12 min-[930px]:w-1/12'>
                     
@@ -25,21 +25,21 @@ const Nav = () => {
 
                 <div className = 'hidden capitalize md:flex md:flex-wrap justify-center items-center text-white max-[929px]:w-8/12 min-[930px]:w-9/12'>
                     <div className = 'mx-2'>
-                        <a href = "#" className = 'p-3 px-5 hover:text-blue-400 transition-all'>features</a>
+                        <a href = "#" className = 'p-3 px-5 hover:text-blue-400 transition-all'>home</a>
                     </div>
 
                     <div className = 'mx-2'>
-                        <a href = "#" className = 'p-3 px-5 hover:text-blue-400 transition-all'>customers</a>
+                        <a href = "#" className = 'p-3 px-5 hover:text-blue-400 transition-all'>products</a>
                     </div>
 
                     <div className = 'mx-2'>
-                        <a href = "#" className = 'p-3 px-5 hover:text-blue-400 transition-all'>integrations</a>
+                        <a href = "#" className = 'p-3 px-5 hover:text-blue-400 transition-all'>about us</a>
                     </div>
                 </div>
 
 
                 <div className = 'capitalize w-4/12 md:w-2/12 max-[929px]:text-sm flex flex-wrap justify-end items-center'>
-                    <button href = "#" className = "p-2 px-2 mx-2 text-xl flex items-center justify-center text-blue-200 hover:bg-blue-200 transition-all rounded-xl hover:text-black">
+                    <button href = "#" className = "p-2 px-2 mx-2 text-2xl flex items-center justify-center text-blue-200 hover:-translate-y-1 transition-all rounded-xl">
                         <i className = "bx bx-cart"></i>
                     </button>
 
